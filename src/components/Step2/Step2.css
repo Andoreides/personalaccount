@@ -1,0 +1,170 @@
+.step2__frame {
+    background-color: #F4F4F5;
+    min-width: 320px;
+    max-width: 900px;
+    width: calc(100% - 70px);
+}
+
+.step2__advantages-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.step2__tip{
+    width: 300px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: white;
+    margin: 0 0 0 10px;
+}
+
+.tip_red{
+    color: red;
+}
+
+.step2__radio-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.step2__btn-delete{
+    width: 15px;
+    height: 15px;
+    padding:0;
+    margin:13px 0 0 18.5px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.step2__image-delete{
+    width: 15px;
+    height: 15px;
+    padding:0;
+    cursor: pointer;
+}
+
+.step2__container{
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    border-radius: 24px;
+    margin: 24px auto 108px;
+}
+
+.row {
+    margin-bottom: 52px;
+    margin-top: 62px;
+}
+
+.wrapper-progressBar {
+    width: 100%
+}
+
+.progressBar {
+    margin: 0;
+}
+
+.progressBar li {
+    list-style-type: none;
+    float: left;
+    width: 33%;
+    position: relative;
+    text-align: center;
+}
+
+.progressBar li:before {
+    content: " ";
+    line-height: 30px;
+    border-radius: 50%;
+    width: 17px;
+    height: 17px;
+    border: 1px solid #ddd;
+    border-left:none;
+    display: block;
+    text-align: center;
+    margin: 8.5px auto 0px;
+    background-color: #eee;
+}
+
+.progressBar li:after {
+    content: "";
+    position: absolute;
+    width: 97%;
+    height: 5px;
+    background-color: #eee;
+    border: 1px solid #ddd;
+    border-right:none;
+    top: 15px;
+    left: -50%;
+    z-index: 1;
+}
+
+.progressBar li:first-child:after {
+    content: none;
+}
+
+.progressBar li.active {
+    color: dodgerblue;
+}
+
+.progressBar li.active:before {
+    border-color: dodgerblue;
+    background-color: dodgerblue
+}
+
+.progressBar .active:after {
+    background-color: dodgerblue;
+}
+
+.step2__button-back{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+    width: 48px;
+    height: 44px;
+    border: 1.5px solid #5558FA;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    margin: 0 0 30px 0;
+}
+
+.step2__checkbox {
+    margin: 0;
+    width: 40px;
+}
+
+.last {
+    margin-bottom: 24px;
+}
+
+.step2__input-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.button_margin {
+    margin-bottom: 45px;
+}
+
+@media screen and (max-width: 663px) {
+    .step2__tip{
+        display: flex;
+        margin: 0 0 2px 0;
+    }
+    .step2__advantages-container{
+        flex-direction: column;
+    }
+    .step1__input{
+        margin-bottom: 2px;
+    }
+    .step2__button-back{
+        margin-top: 10px;
+    }
+}

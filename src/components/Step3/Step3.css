@@ -1,0 +1,91 @@
+.step3__frame {
+    background-color: #F4F4F5;
+    min-width: 320px;
+    max-width: 900px;
+    width: calc(100% - 70px);
+}
+
+.step3__container{
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    border-radius: 24px;
+    margin: 24px auto 108px;
+}
+
+.step3__input{
+    padding: 12px;
+    max-width: 680px;
+    height: 84px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
+.step3__input::placeholder {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.48);
+}
+
+.step3__counter{
+    height: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.48);
+    margin: 0 110px 0 0;
+    justify-content: end;
+}
+
+.step3__content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 110px;
+}
+
+.step3__button-next {
+    padding: 12px 16px;
+    background: #5558FA;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    margin: auto 83px auto auto;
+}
+
+@media screen and (max-width: 922px) {
+    .step3__content {
+        margin-left: 60px;
+    }
+}
+
+@media screen and (max-width: 872px) {
+    .step3__content {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .step3__button-next{
+        margin: 0;
+    }
+    .step3__counter{
+        margin: 0 60px 0 0;
+    }
+}
+
+@media screen and (max-width: 642px) {
+    .step3__counter{
+        margin: 0 40px 0 0;
+    }
+}
