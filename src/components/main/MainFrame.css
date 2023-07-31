@@ -1,0 +1,135 @@
+.main__frame {
+    width: 900px;
+    height: 704px;
+    margin: 24px 233px 225px;
+    background-color: #FFFFFF;
+    position: relative;
+    display: flex;
+    border-radius: 12px 12px 0 0;
+    flex-direction: column;
+}
+
+.main__profile-container{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 24px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+
+}
+
+.main__profile-content{
+    width: 228px;
+    height: 50px;
+    margin-top: 38px;
+    margin-left: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main__avatar{
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    margin: 25px 0 0 24px;
+}
+
+.main__profile-title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    margin: 0;
+    text-align: left;
+}
+
+.main__profile-links{
+    margin-top: 8px;
+    width: 228px;
+    display: flex;
+    flex-direction: row;
+}
+
+.main__profile-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-decoration: none;
+    margin-right: 17.6px;
+    color: #5558FA;
+}
+
+.main__profile-img {
+    /*background-image: url(../images/Vector.png);*/
+    width: 13px;
+    height: 11.2px;
+    border: none;
+    object-fit: cover;
+    margin-right: 5.6px;
+}
+
+.main__information {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    width: 400px;
+    height: 168px;
+    margin-top: 24px;
+    margin-left: 24px;
+}
+
+.main__information-title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    margin: 0 0 8px 0;
+}
+
+.main__information-input {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    width: 396px;
+    height: 40px;
+    background: rgba(0, 0, 0, 0.04);
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    border-radius: 4px;
+}
+
+.first-input {
+    margin-bottom: 24px;
+}
+
+.main__information-input::placeholder {
+    width: 376px;
+    height: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.48);
+    padding: 12px 0 12px 12px;
+}
+
+.main__button-start {
+    margin: 48px auto auto 24px;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+
+    background: #5558FA;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
